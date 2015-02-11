@@ -19,12 +19,17 @@ function initializePage() {
   // $("a.thumbnail").click(projectClick);
   $("#submitBtn").click(updateProject); 
   $("#logoutBtn").click(logout); 
+  $("#newStoryBtn").click(newStory);
   $("#registerBtn").click(goToRegister); 
   $("#TopS").click(goToTopStories);
   $("#NewsFeed").click(goToNewsFeed);
   $("#Publish").click(goToPublish);
   $("#Profile").click(goToProfile);
 
+}
+
+function newStory(e) {
+	window.location='/publish';
 }
 
 function logout(e) {

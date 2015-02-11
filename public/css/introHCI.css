@@ -83,14 +83,14 @@ ul#navigation li.last {
 
 ul {
     display: block;
-    width: 600px;
+    width: 330px;
     margin: auto;
 
     position: fixed;
     bottom: 0;
 
-    left: 50%;
-    margin-left: -260px;
+    left: 2%;
+    margin-left: 0px;
     /*width: 100%;*/
     /*margin:0;*/
     padding:0;
@@ -114,7 +114,7 @@ li {
 li a {
 
     display:block;
-    min-width:140px;
+    width:80px;
     height: 50px;
     text-align: center;
     line-height: 50px;
